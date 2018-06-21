@@ -1,0 +1,22 @@
+temp/
+env/
+
+# IDE related
+venv/
+.idea/
+.swp
+
+# Python
+*.pyc
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# OS specific
+.DS_Store
