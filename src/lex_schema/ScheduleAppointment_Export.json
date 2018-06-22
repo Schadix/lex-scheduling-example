@@ -5,7 +5,7 @@
     "importFormat": "JSON"
   },
   "resource": {
-    "name": "ScheduleAppointment",
+    "name": "ScheduleAppointmentFromRepo",
     "version": "1",
     "intents": [
       {
