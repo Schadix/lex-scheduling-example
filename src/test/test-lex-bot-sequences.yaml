@@ -1,6 +1,6 @@
 name: test-lex-bot
 description: Regression tests for the Amazon Lex ScheduleAppointment bot
-botName: ScheduleAppointment
+botName: ScheduleAppointmentFromRepo
 botAlias: dev
 waitBetweenRequestsMillis: 0
 sequences:
