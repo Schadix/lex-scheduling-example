@@ -15,6 +15,26 @@ sequences:
     postConditions:
       message:
       - "At what time do you want to schedule the root canal\\?"
+      - "At what time should I schedule your appointment\\?"
+      - "At what time on .*\\?"
+  - utterance: "10am"
+    postConditions:
+      message:
+      - ".* is available, should I go ahead and book your .*\\?"
+  - utterance: "yes"
+    postConditions:
+      dialogState: ReadyForFulfillment
+- name: book appointment checkup
+  description: book appointment checkup
+  sequence:
+  - utterance: "book a checkup"
+    postConditions:
+      message:
+      - "When should I schedule your checkup"
+  - utterance: "tomorrow"
+    postConditions:
+      message:
+      - "At what time do you want to schedule the root canal\\?"
       - "At what time on .*\\?"
   - utterance: "10am"
     postConditions:
