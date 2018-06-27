@@ -34,7 +34,8 @@ sequences:
   - utterance: "tomorrow"
     postConditions:
       message:
-      - "At what time do you want to schedule the root canal\\?"
+      - "At what time do you want to schedule the checkup\\?"
+      - "At what time should I schedule your appointment\\?"
       - "At what time on .*\\?"
   - utterance: "10am"
     postConditions:

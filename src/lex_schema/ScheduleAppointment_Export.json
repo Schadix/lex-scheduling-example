@@ -134,6 +134,9 @@
           },
           {
             "value": "crowning"
+          },
+          {
+            "value": "checkup"
           }
         ],
         "valueSelectionStrategy": "ORIGINAL_VALUE"
