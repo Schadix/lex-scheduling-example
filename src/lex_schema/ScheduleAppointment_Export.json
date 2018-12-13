@@ -133,16 +133,10 @@
             "value": "root canal"
           },
           {
-            "value": "testAgainForTheJinxOfIt"
-          },
-          {
             "value": "crowning"
           },
           {
             "value": "checkup"
-          },
-          {
-            "value": "testDeployBotCLICommandCheckIfThisIsIn"
           }
         ],
         "valueSelectionStrategy": "ORIGINAL_VALUE"
